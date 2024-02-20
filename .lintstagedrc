@@ -1,0 +1,5 @@
+{
+  "bin/*": ["eslint --fix", "prettier --write"],
+  "lib/*": ["eslint --fix", "prettier --write"],
+  "template/!(node_modules)/*.{js,vue,json}": ["eslint --fix", "prettier --write"]
+}

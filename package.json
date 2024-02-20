@@ -1,0 +1,36 @@
+{
+  "name": "monorepo-vue-cli",
+  "version": "0.1.0",
+  "description": "monorepo vue cli",
+  "bin": {
+    "mvc": "bin/cli.js"
+  },
+  "directories": {
+    "lib": "lib"
+  },
+  "scripts": {
+    "prepare": "husky install"
+  },
+  "devDependencies": {
+    "@vue/cli-shared-utils": "^5.0.8",
+    "acorn": "^8.8.0",
+    "chalk": "2.4.1",
+    "commander": "2.20.0",
+    "didyoumean": "^1.2.2",
+    "escodegen": "^2.0.0",
+    "eslint": "^8.31.0",
+    "execa": "3.4.0",
+    "fs-extra": "^10.1.0",
+    "husky": "^8.0.3",
+    "inquirer": "6.3.1",
+    "lint-staged": "^13.1.0",
+    "lodash": "^4.17.21",
+    "minimist": "^1.2.6",
+    "prettier": "^2.8.1",
+    "semver": "^7.3.7",
+    "shelljs": "^0.8.5"
+  },
+  "engines": {
+    "node": ">=8.9"
+  }
+}
